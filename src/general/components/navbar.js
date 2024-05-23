@@ -37,16 +37,16 @@ function Navbar() {
         <div className={`w-full lg:flex lg:items-center lg:w-auto ${drawerOpen ? 'block' : 'hidden'} lg:block`}>
           <ul className="lg:flex lg:space-x-4 text-white mt-4 lg:mt-0">
             <li className="nav-item">
-              <Link to="/" className="nav-link block py-2 lg:inline-block" onClick={() => setDrawerOpen(false)}>Home</Link>
+              <Link to="/" className="nav-link block py-2 px-4 lg:inline-block" onClick={() => setDrawerOpen(false)}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link block py-2 lg:inline-block" onClick={() => setDrawerOpen(false)}>About</Link>
+              <Link to="/about" className="nav-link block py-2 px-4 lg:inline-block" onClick={() => setDrawerOpen(false)}>About</Link>
             </li>
             <li className="nav-item">
-              <Link to="/feedback" className="nav-link block py-2 lg:inline-block" onClick={() => setDrawerOpen(false)}>Feedback</Link>
+              <Link to="/feedback" className="nav-link block py-2 px-4 lg:inline-block" onClick={() => setDrawerOpen(false)}>Feedback</Link>
             </li>
             <li className="nav-item">
-              <Link to="/login" className="nav-link block py-2 lg:inline-block" onClick={() => setDrawerOpen(false)}>Login</Link>
+              <Link to="/login" className="nav-link block py-2 px-4 lg:inline-block" onClick={() => setDrawerOpen(false)}>Login</Link>
             </li>
           </ul>
         </div>
